@@ -9,12 +9,31 @@
 /* Begin PBXBuildFile section */
 		BD42BC1323A5F0B700F1EE31 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD42BC1223A5F0B700F1EE31 /* AppDelegate.swift */; };
 		BD42BC1523A5F0B700F1EE31 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD42BC1423A5F0B700F1EE31 /* SceneDelegate.swift */; };
-		BD42BC1723A5F0B700F1EE31 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD42BC1623A5F0B700F1EE31 /* ViewController.swift */; };
+		BD42BC1723A5F0B700F1EE31 /* AirportViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD42BC1623A5F0B700F1EE31 /* AirportViewController.swift */; };
 		BD42BC1A23A5F0B700F1EE31 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD42BC1823A5F0B700F1EE31 /* Main.storyboard */; };
 		BD42BC1C23A5F0B800F1EE31 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD42BC1B23A5F0B800F1EE31 /* Assets.xcassets */; };
 		BD42BC1F23A5F0B800F1EE31 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD42BC1D23A5F0B800F1EE31 /* LaunchScreen.storyboard */; };
 		BD42BC2A23A5F0B800F1EE31 /* AirportLocatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD42BC2923A5F0B800F1EE31 /* AirportLocatorTests.swift */; };
 		BD42BC3523A5F0B800F1EE31 /* AirportLocatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD42BC3423A5F0B800F1EE31 /* AirportLocatorUITests.swift */; };
+		BD42BC4423A5F69400F1EE31 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD42BC4323A5F69400F1EE31 /* DataManager.swift */; };
+		BD42BC4723A5FE5400F1EE31 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD42BC4623A5FE5400F1EE31 /* MapKit.framework */; };
+		BD42BC4E23A60D3200F1EE31 /* AirportCodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD42BC4D23A60D3200F1EE31 /* AirportCodable.swift */; };
+		BD42BC5823A615BE00F1EE31 /* Airport.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD42BC5723A615BE00F1EE31 /* Airport.swift */; };
+		BD42BC5A23A616CC00F1EE31 /* AirportList.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD42BC5923A616CC00F1EE31 /* AirportList.swift */; };
+		BD42BC5D23A61F0600F1EE31 /* AirportsRespository.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD42BC5C23A61F0600F1EE31 /* AirportsRespository.swift */; };
+		BD42BC5F23A61F6F00F1EE31 /* AppConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD42BC5E23A61F6F00F1EE31 /* AppConstants.swift */; };
+		BDDB4D8E23A622DC004F572E /* DisplayAirport.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDDB4D8D23A622DC004F572E /* DisplayAirport.swift */; };
+		BDDB4D9023A62339004F572E /* DisplayAirportsList.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDDB4D8F23A62339004F572E /* DisplayAirportsList.swift */; };
+		BDDB4D9223A624F0004F572E /* AirportsListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDDB4D9123A624F0004F572E /* AirportsListViewModel.swift */; };
+		BDDB4D9623A635A8004F572E /* data.geojson in Resources */ = {isa = PBXBuildFile; fileRef = BDDB4D9523A635A8004F572E /* data.geojson */; };
+		BDDB4D9A23A64156004F572E /* AirportCoordinates.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDDB4D9923A64156004F572E /* AirportCoordinates.swift */; };
+		BDDB4D9C23A6416C004F572E /* AirportLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDDB4D9B23A6416C004F572E /* AirportLocation.swift */; };
+		BDDB4DA123A64E29004F572E /* DisplayContactsListMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDDB4D9E23A64E29004F572E /* DisplayContactsListMock.swift */; };
+		BDDB4DA323A64E29004F572E /* AirportsRepositoryMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDDB4DA023A64E29004F572E /* AirportsRepositoryMock.swift */; };
+		BDDB4DA623A65137004F572E /* DisplayAirportsListTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDDB4DA523A65137004F572E /* DisplayAirportsListTest.swift */; };
+		BDDB4DAB23A6533D004F572E /* AirportTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDDB4DAA23A6533D004F572E /* AirportTest.swift */; };
+		BDDB4DAD23A6537D004F572E /* AirportRepositoryTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDDB4DAC23A6537D004F572E /* AirportRepositoryTest.swift */; };
+		BDDB4DAF23A65478004F572E /* AirportsListViewModelTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDDB4DAE23A65478004F572E /* AirportsListViewModelTest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +57,7 @@
 		BD42BC0F23A5F0B700F1EE31 /* AirportLocator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AirportLocator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD42BC1223A5F0B700F1EE31 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BD42BC1423A5F0B700F1EE31 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		BD42BC1623A5F0B700F1EE31 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BD42BC1623A5F0B700F1EE31 /* AirportViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirportViewController.swift; sourceTree = "<group>"; };
 		BD42BC1923A5F0B700F1EE31 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BD42BC1B23A5F0B800F1EE31 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BD42BC1E23A5F0B800F1EE31 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +68,26 @@
 		BD42BC3023A5F0B800F1EE31 /* AirportLocatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AirportLocatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD42BC3423A5F0B800F1EE31 /* AirportLocatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirportLocatorUITests.swift; sourceTree = "<group>"; };
 		BD42BC3623A5F0B800F1EE31 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BD42BC4323A5F69400F1EE31 /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		BD42BC4623A5FE5400F1EE31 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		BD42BC4923A6048D00F1EE31 /* kuala-lumpur.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "kuala-lumpur.gpx"; sourceTree = "<group>"; };
+		BD42BC4D23A60D3200F1EE31 /* AirportCodable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirportCodable.swift; sourceTree = "<group>"; };
+		BD42BC5723A615BE00F1EE31 /* Airport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Airport.swift; sourceTree = "<group>"; };
+		BD42BC5923A616CC00F1EE31 /* AirportList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirportList.swift; sourceTree = "<group>"; };
+		BD42BC5C23A61F0600F1EE31 /* AirportsRespository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirportsRespository.swift; sourceTree = "<group>"; };
+		BD42BC5E23A61F6F00F1EE31 /* AppConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConstants.swift; sourceTree = "<group>"; };
+		BDDB4D8D23A622DC004F572E /* DisplayAirport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayAirport.swift; sourceTree = "<group>"; };
+		BDDB4D8F23A62339004F572E /* DisplayAirportsList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayAirportsList.swift; sourceTree = "<group>"; };
+		BDDB4D9123A624F0004F572E /* AirportsListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirportsListViewModel.swift; sourceTree = "<group>"; };
+		BDDB4D9523A635A8004F572E /* data.geojson */ = {isa = PBXFileReference; lastKnownFileType = text; path = data.geojson; sourceTree = "<group>"; };
+		BDDB4D9923A64156004F572E /* AirportCoordinates.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirportCoordinates.swift; sourceTree = "<group>"; };
+		BDDB4D9B23A6416C004F572E /* AirportLocation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirportLocation.swift; sourceTree = "<group>"; };
+		BDDB4D9E23A64E29004F572E /* DisplayContactsListMock.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DisplayContactsListMock.swift; sourceTree = "<group>"; };
+		BDDB4DA023A64E29004F572E /* AirportsRepositoryMock.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AirportsRepositoryMock.swift; sourceTree = "<group>"; };
+		BDDB4DA523A65137004F572E /* DisplayAirportsListTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DisplayAirportsListTest.swift; sourceTree = "<group>"; };
+		BDDB4DAA23A6533D004F572E /* AirportTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirportTest.swift; sourceTree = "<group>"; };
+		BDDB4DAC23A6537D004F572E /* AirportRepositoryTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirportRepositoryTest.swift; sourceTree = "<group>"; };
+		BDDB4DAE23A65478004F572E /* AirportsListViewModelTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirportsListViewModelTest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +95,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD42BC4723A5FE5400F1EE31 /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +123,7 @@
 				BD42BC2823A5F0B800F1EE31 /* AirportLocatorTests */,
 				BD42BC3323A5F0B800F1EE31 /* AirportLocatorUITests */,
 				BD42BC1023A5F0B700F1EE31 /* Products */,
+				BD42BC4523A5FE5400F1EE31 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,10 +140,14 @@
 		BD42BC1123A5F0B700F1EE31 /* AirportLocator */ = {
 			isa = PBXGroup;
 			children = (
-				BD42BC1223A5F0B700F1EE31 /* AppDelegate.swift */,
-				BD42BC1423A5F0B700F1EE31 /* SceneDelegate.swift */,
-				BD42BC1623A5F0B700F1EE31 /* ViewController.swift */,
-				BD42BC1823A5F0B700F1EE31 /* Main.storyboard */,
+				BD42BC6023A61F7600F1EE31 /* General */,
+				BD42BC4823A6047000F1EE31 /* Resources */,
+				BD42BC4223A5F52600F1EE31 /* Adaptors */,
+				BD42BC5323A6116800F1EE31 /* Interactors */,
+				BD42BC5223A6116300F1EE31 /* Models */,
+				BD42BC5123A6115F00F1EE31 /* ViewModels */,
+				BD42BC5023A6115800F1EE31 /* Views */,
+				BD42BC4F23A6114A00F1EE31 /* Application */,
 				BD42BC1B23A5F0B800F1EE31 /* Assets.xcassets */,
 				BD42BC1D23A5F0B800F1EE31 /* LaunchScreen.storyboard */,
 				BD42BC2023A5F0B800F1EE31 /* Info.plist */,
@@ -113,6 +158,11 @@
 		BD42BC2823A5F0B800F1EE31 /* AirportLocatorTests */ = {
 			isa = PBXGroup;
 			children = (
+				BDDB4D9D23A64DFE004F572E /* Mock */,
+				BDDB4DA723A6523C004F572E /* Models */,
+				BDDB4DA423A650C0004F572E /* Interactors */,
+				BDDB4DA823A6524E004F572E /* Repositories */,
+				BDDB4DA923A652AE004F572E /* ViewModels */,
 				BD42BC2923A5F0B800F1EE31 /* AirportLocatorTests.swift */,
 				BD42BC2B23A5F0B800F1EE31 /* Info.plist */,
 			);
@@ -126,6 +176,152 @@
 				BD42BC3623A5F0B800F1EE31 /* Info.plist */,
 			);
 			path = AirportLocatorUITests;
+			sourceTree = "<group>";
+		};
+		BD42BC4223A5F52600F1EE31 /* Adaptors */ = {
+			isa = PBXGroup;
+			children = (
+				BD42BC5523A6148B00F1EE31 /* Services */,
+				BD42BC5423A6148100F1EE31 /* Repositories */,
+			);
+			path = Adaptors;
+			sourceTree = "<group>";
+		};
+		BD42BC4523A5FE5400F1EE31 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BD42BC4623A5FE5400F1EE31 /* MapKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BD42BC4823A6047000F1EE31 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				BDDB4D9523A635A8004F572E /* data.geojson */,
+				BD42BC4923A6048D00F1EE31 /* kuala-lumpur.gpx */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		BD42BC4F23A6114A00F1EE31 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				BD42BC1223A5F0B700F1EE31 /* AppDelegate.swift */,
+				BD42BC1423A5F0B700F1EE31 /* SceneDelegate.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		BD42BC5023A6115800F1EE31 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				BD42BC1823A5F0B700F1EE31 /* Main.storyboard */,
+				BD42BC1623A5F0B700F1EE31 /* AirportViewController.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		BD42BC5123A6115F00F1EE31 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				BDDB4D9123A624F0004F572E /* AirportsListViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		BD42BC5223A6116300F1EE31 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				BD42BC5723A615BE00F1EE31 /* Airport.swift */,
+				BD42BC5923A616CC00F1EE31 /* AirportList.swift */,
+				BDDB4D9923A64156004F572E /* AirportCoordinates.swift */,
+				BDDB4D9B23A6416C004F572E /* AirportLocation.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		BD42BC5323A6116800F1EE31 /* Interactors */ = {
+			isa = PBXGroup;
+			children = (
+				BDDB4D8D23A622DC004F572E /* DisplayAirport.swift */,
+				BDDB4D8F23A62339004F572E /* DisplayAirportsList.swift */,
+			);
+			path = Interactors;
+			sourceTree = "<group>";
+		};
+		BD42BC5423A6148100F1EE31 /* Repositories */ = {
+			isa = PBXGroup;
+			children = (
+				BD42BC5C23A61F0600F1EE31 /* AirportsRespository.swift */,
+			);
+			path = Repositories;
+			sourceTree = "<group>";
+		};
+		BD42BC5523A6148B00F1EE31 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				BD42BC5623A614EF00F1EE31 /* DataManager */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		BD42BC5623A614EF00F1EE31 /* DataManager */ = {
+			isa = PBXGroup;
+			children = (
+				BD42BC4323A5F69400F1EE31 /* DataManager.swift */,
+				BD42BC4D23A60D3200F1EE31 /* AirportCodable.swift */,
+			);
+			path = DataManager;
+			sourceTree = "<group>";
+		};
+		BD42BC6023A61F7600F1EE31 /* General */ = {
+			isa = PBXGroup;
+			children = (
+				BD42BC5E23A61F6F00F1EE31 /* AppConstants.swift */,
+			);
+			path = General;
+			sourceTree = "<group>";
+		};
+		BDDB4D9D23A64DFE004F572E /* Mock */ = {
+			isa = PBXGroup;
+			children = (
+				BDDB4DA023A64E29004F572E /* AirportsRepositoryMock.swift */,
+				BDDB4D9E23A64E29004F572E /* DisplayContactsListMock.swift */,
+			);
+			path = Mock;
+			sourceTree = "<group>";
+		};
+		BDDB4DA423A650C0004F572E /* Interactors */ = {
+			isa = PBXGroup;
+			children = (
+				BDDB4DA523A65137004F572E /* DisplayAirportsListTest.swift */,
+			);
+			path = Interactors;
+			sourceTree = "<group>";
+		};
+		BDDB4DA723A6523C004F572E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				BDDB4DAA23A6533D004F572E /* AirportTest.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		BDDB4DA823A6524E004F572E /* Repositories */ = {
+			isa = PBXGroup;
+			children = (
+				BDDB4DAC23A6537D004F572E /* AirportRepositoryTest.swift */,
+			);
+			path = Repositories;
+			sourceTree = "<group>";
+		};
+		BDDB4DA923A652AE004F572E /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				BDDB4DAE23A65478004F572E /* AirportsListViewModelTest.swift */,
+			);
+			path = ViewModels;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,6 +429,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BD42BC1F23A5F0B800F1EE31 /* LaunchScreen.storyboard in Resources */,
+				BDDB4D9623A635A8004F572E /* data.geojson in Resources */,
 				BD42BC1C23A5F0B800F1EE31 /* Assets.xcassets in Resources */,
 				BD42BC1A23A5F0B700F1EE31 /* Main.storyboard in Resources */,
 			);
@@ -259,9 +456,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BD42BC1723A5F0B700F1EE31 /* ViewController.swift in Sources */,
+				BD42BC4E23A60D3200F1EE31 /* AirportCodable.swift in Sources */,
+				BDDB4D9C23A6416C004F572E /* AirportLocation.swift in Sources */,
+				BDDB4D9A23A64156004F572E /* AirportCoordinates.swift in Sources */,
+				BD42BC5F23A61F6F00F1EE31 /* AppConstants.swift in Sources */,
+				BD42BC1723A5F0B700F1EE31 /* AirportViewController.swift in Sources */,
+				BD42BC5A23A616CC00F1EE31 /* AirportList.swift in Sources */,
+				BDDB4D9023A62339004F572E /* DisplayAirportsList.swift in Sources */,
+				BD42BC4423A5F69400F1EE31 /* DataManager.swift in Sources */,
+				BDDB4D9223A624F0004F572E /* AirportsListViewModel.swift in Sources */,
+				BD42BC5823A615BE00F1EE31 /* Airport.swift in Sources */,
+				BDDB4D8E23A622DC004F572E /* DisplayAirport.swift in Sources */,
 				BD42BC1323A5F0B700F1EE31 /* AppDelegate.swift in Sources */,
 				BD42BC1523A5F0B700F1EE31 /* SceneDelegate.swift in Sources */,
+				BD42BC5D23A61F0600F1EE31 /* AirportsRespository.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,7 +477,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BDDB4DAB23A6533D004F572E /* AirportTest.swift in Sources */,
+				BDDB4DAD23A6537D004F572E /* AirportRepositoryTest.swift in Sources */,
+				BDDB4DA323A64E29004F572E /* AirportsRepositoryMock.swift in Sources */,
+				BDDB4DAF23A65478004F572E /* AirportsListViewModelTest.swift in Sources */,
+				BDDB4DA623A65137004F572E /* DisplayAirportsListTest.swift in Sources */,
 				BD42BC2A23A5F0B800F1EE31 /* AirportLocatorTests.swift in Sources */,
+				BDDB4DA123A64E29004F572E /* DisplayContactsListMock.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
